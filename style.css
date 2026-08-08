@@ -57,7 +57,7 @@ nav #link :hover{
 } 
 }
  @media screen and (min-width:500px) and (max-width:900px){
-        nav #logo{
+    nav #logo{
     font-family: "Libre Baskerville", serif;
 }
 #ee{
@@ -67,7 +67,19 @@ nav #link :hover{
 }
      nav #link{
     font-size: 35px;
-    color: var(--text);
+    color: var(--white);
+    padding-left:20px;
+}
+}
+@media screen and (min-width:1281px) and (max-width:4000px){
+    nav #logo{
+    font-family: "Libre Baskerville", serif;
+    font-size: 60px;
+    margin-left: 8px;
+}
+     nav #link{
+    font-size: 50px;
+    color: var(--white);
     padding-left:20px;
 }
 }
@@ -132,6 +144,17 @@ nav #link :hover{
     text-decoration: none;
     padding: 5px 15px;
     font-size: 23px;
+}
+}
+@media screen and (min-width:1281px) and (max-width:4000px){
+    .header .parent h2{
+    font-size: 530%;
+    margin-bottom: 50px;
+}
+.header .parent a{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 310%;
 }
 }
 /* about */
