@@ -71,9 +71,9 @@ nav #link :hover{
     padding-left:20px;
 }
 }
-@media screen and (min-width:1281px) and (max-width:4000px){
+@media screen and (min-width:1281px) and (max-width:3000px){
     nav{
-    height: 90px;
+    height: 75px;
 }
     nav #logo{
     font-family: "Libre Baskerville", serif;
@@ -81,7 +81,7 @@ nav #link :hover{
     margin-left: 8px;
 }
      nav #link{
-    font-size: 50px;
+    font-size: 40px;
     color: var(--white);
     padding-left:20px;
 }
@@ -311,7 +311,7 @@ nav #link :hover{
 }
  #a{
     text-decoration: none;
-    padding: 1px 2px;
+    padding: 5px 10px;
     background-color:var(--biig) ;
     color: var(--white);
     font-size: 20px;
@@ -321,12 +321,7 @@ nav #link :hover{
     transition: all 2s;
 }
 #a span{
-    /* background-color: var(--biig);
-    color: var(--white);
-    border-radius:0 10px 0 10px ;
-    padding: 1px 2px;
-    transition: all 2s; */
-    padding: 1px 2px;
+    padding: 5px 10px;
     background-color:var(--biig) ;
     color: var(--white);
     font-size: 20px;
@@ -346,7 +341,7 @@ nav #link :hover{
     width: 100%;
     height: 100%;
     opacity: 0;
-    padding: 1px 2px;
+    padding: 5px 10px;
     /* transition: opacity .3s ease; */
     transition: all 2s;
 }
@@ -361,8 +356,42 @@ nav #link :hover{
     color: var(--biig);
     font-size: 16px;
     scale: 1.2;
-    padding: 1px 2px;
+    padding: 5px 10px;
     border-radius:0 10px 0 10px ;
+}
+@media screen and (min-width:1281px) and (max-width:3000px){
+    .store .totel .card1{
+    width: 600px;
+    height: 750px;
+}
+   .store .totel .card2{
+    width: 600px;
+    height: 750px;
+}
+   .store .totel .card3{
+   width: 600px;
+    height: 750px;
+}
+   .store .totel .card4{
+    width: 600px;
+    height: 750px;
+}
+   .store .totel .card5{
+    width: 600px;
+    height: 750px;
+}
+   .store .totel .card6{
+    width: 600px;
+    height: 750px;
+}
+ #a{
+    padding: 15px 30px;
+    font-size: 30px;
+}
+#a span{
+    padding: 15px 30px;
+    font-size: 30px;
+} 
 }
 /* contect */
 .con{
